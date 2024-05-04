@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h2>{% block title %}jombor{% endblock title %}</h2>
+{% endblock header %}
+
+{% block content %}
+  <p>
+    selamat datang mahasiswa/mahsiswi uty <a href="{{ url_for('pages.about') }}">About page</a>.
+  </p>
+{% endblock content %}
